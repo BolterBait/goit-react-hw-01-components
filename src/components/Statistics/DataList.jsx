@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 import { ListItem } from "./DataList.styled";
-// import { DataItem } from "./DataItem.styled";
+import { DataItem } from "./DataItem";
+import { StatData } from './DataItem.styled';
 
-export const DataList = ({ data }) => {return (<ul>
-    {data.map(data =>(
-        <ListItem key= { data.id }>
-      {/* <DataItem data = { data} /> */}
-    </ListItem>
+export const DataList = ({ data }) => {return (<ListItem>
+  {data.map(data =>(<StatData key= { data.id }>
+      <DataItem data = { data } />
+    </StatData>
     ))}
-     </ul>);
+     </ListItem>);
 };
     
 ListItem.propTypes = {
@@ -19,7 +19,7 @@ ListItem.propTypes = {
 
     
     // {/* <li class="item">
-    //   <span class="label">.mp3</span>
+    //   <span class="el">.mp3</span>
     //   <span class="percentage">14%</span>
     // </li>
     // <li class="item">

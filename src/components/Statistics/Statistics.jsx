@@ -1,11 +1,11 @@
 // import { PageTitle } from "./PageTitle";
 // import { DataList } from "./DataList";
-// export const Statistics = ({ data }) => {
-//   const {id, lable, percentage} = data;
 
+// export const Statistics = ({ title, data }) => {
+  
 //   return <Statistics>
-//      <PageTitle>Upload stats</PageTitle>
-//      <DataList />
+//      <PageTitle title={ title }></PageTitle>
+//      <DataList data={ data } />
 //   </Statistics>
 // };
 // {/* 

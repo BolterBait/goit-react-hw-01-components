@@ -1,17 +1,21 @@
 import PropTypes from 'prop-types';
+import { StatValue, StatPercentage} from './DataItem.styled'
+
 export const DataItem = ({
-    data: {lable, percentage},
+    data: { label, percentage },
 }) => { 
-    return(<span >{ lable }</span>,
-           <span >{ percentage }%</span>
-   
+    return(
+    <>
+    <StatValue >{ label }</StatValue>
+    <StatPercentage >{ percentage } %</StatPercentage>
+    </> 
 );
     };
 
 DataItem.propTypes = {
 data: PropTypes.shape({
     id: PropTypes.string.isRequired,
-    lable: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
     percentage: PropTypes.number.isRequired,
 }),
 };

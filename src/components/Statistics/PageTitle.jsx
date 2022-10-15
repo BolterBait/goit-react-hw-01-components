@@ -1,4 +1,4 @@
 export const PageTitle = ({ title }) => {
-    return <PageTitle>{ title }</PageTitle>
+    return <>{ title && <PageTitle>{ title }</PageTitle> }</>
   };
   

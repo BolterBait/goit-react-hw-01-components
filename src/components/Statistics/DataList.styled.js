@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const ListItem = styled.li`
+export const ListItem = styled.ul`
+display: flex;
+flex-direction: row;
 font-size: 16px;
-color: white;`
+color: black;`
 
