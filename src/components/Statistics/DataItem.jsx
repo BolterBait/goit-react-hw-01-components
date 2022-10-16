@@ -7,7 +7,7 @@ export const DataItem = ({
     return(
     <>
     <StatValue >{ label }</StatValue>
-    <StatPercentage >{ percentage } %</StatPercentage>
+    <StatPercentage >{ percentage }%</StatPercentage>
     </> 
 );
     };
