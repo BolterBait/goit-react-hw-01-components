@@ -1,5 +1,6 @@
 import { Card, Avatar, UserName, UserTag, UserLocation, Img, StatsList,
   StatsItem, } from "./Profile.styled";
+  
 export const Profile = ({user}) => {
     const {username, tag, location, avatar, stats } = user;
        
