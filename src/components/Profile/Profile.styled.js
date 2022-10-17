@@ -5,7 +5,9 @@ background-color: whitesmoke;
 width: 300px;
 display: flex;
 flex-direction: column;
-border: 1px solid lightgray`
+border: 1px solid lightgray;
+margin-bottom: 20px;
+`
 
 export const Img = styled.img`
 width: 200px;
