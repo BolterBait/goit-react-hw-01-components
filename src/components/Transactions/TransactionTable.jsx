@@ -1,16 +1,13 @@
-import { Table, TableHead } from "./TransactionTable.styled"
+import { RowName, TableHead } from './TransactionTable.styled';
 
 export const TransactionTable = () => {
-
-    return(
-     
-        <TableHead>
-          <tr>
-            <th>Type</th>
-            <th>Amount</th>
-            <th>Currency</th>
-            </tr>
-        </TableHead>
-        
-       )
-    }
+  return (
+    <TableHead>
+      <tr>
+        <RowName>Type</RowName>
+        <RowName>Amount</RowName>
+        <RowName>Currency</RowName>
+      </tr>
+    </TableHead>
+  );
+};
