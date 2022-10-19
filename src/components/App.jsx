@@ -1,5 +1,5 @@
 import { Profile } from "./Profile/Profile";
-import { StatisticData } from "./Statistics/StatisticData";
+import { Statistics } from "./Statistics/Statistics";
 import { FriendList } from "./FriendList/FriendList";
 import { TransactionHistory } from "./Transactions/TransactionHistory";
 
@@ -16,7 +16,7 @@ export const App = () => {
   return (
     <Container>
 <Profile user = {user}/>
-<StatisticData data = { data } />
+<Statistics data = { data } />
 <FriendList friends={friends} />
 <TransactionHistory items = {transactions}/>
    </Container>
