@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const TableBody = styled.tbody`
 height: auto;
-width: 50%;`
+`
 
 export const Table = styled.table`
 height: auto;
-width: 100%;
+width: 50%;
 border: 1px solid blue;
 text-align: center;`
 
